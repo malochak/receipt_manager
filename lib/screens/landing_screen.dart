@@ -1,9 +1,10 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:receipt_manager/screens/login_screen.dart';
 
 import '../components/app_button.dart';
-import '../components/appbar_text.dart';
+import '../components/app_bar_text.dart';
 import '../constants/app_colors.dart' as app_colors;
 import '../main.dart';
 
@@ -16,7 +17,7 @@ class LandingScreen extends StatelessWidget {
         backgroundColor: app_colors.backgroundColor,
         appBar: AppBar(
             backgroundColor: app_colors.darkBackgroundColor,
-            title: const AppbarText(MyApp.appTitle)),
+            title: const AppBarText(MyApp.appTitle)),
         body: SafeArea(
           child: Center(
             child: Container(
@@ -33,6 +34,8 @@ class LandingScreen extends StatelessWidget {
                   children: [
                     AppButton('Logowanie', () {
                       print('Login');
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => const LoginScreen()));
                     }),
                     const SizedBox(height: 30),
                     AppButton('Rejestracja', () {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../constants/app_colors.dart' as app_colors;
 
-class AppbarText extends Text {
-  const AppbarText(String data, {Key? key})
+class AppBarText extends Text {
+  const AppBarText(String data, {Key? key})
       : super(
     data,
     key: key,
