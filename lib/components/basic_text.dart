@@ -6,5 +6,5 @@ class BasicText extends Text {
       : super(data,
       key: key,
       style:
-      const TextStyle(color: app_colors.textColor, fontSize: 18.0));
+      const TextStyle(color: app_colors.textColor, fontSize: 16.0));
 }

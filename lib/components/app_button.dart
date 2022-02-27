@@ -10,13 +10,6 @@ class AppButton extends TextButton {
             padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 40.0),
             child: BasicText(label),
           ),
-          style: ButtonStyle(
-            backgroundColor:
-                MaterialStateProperty.all<Color>(app_colors.accentColor),
-            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20.0))),
-          ),
           onPressed: onPressed
         );
 }

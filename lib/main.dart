@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:receipt_manager/screens/landing_screen.dart';
 
 import 'constants/app_colors.dart' as app_colors;
+import 'theme/dark_theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +14,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: appTitle,
-      home: LandingScreen()
+      home: const LandingScreen(),
+      theme: DarkTheme.getInstance,
     );
   }
 }

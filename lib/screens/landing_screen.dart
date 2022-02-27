@@ -14,7 +14,6 @@ class LandingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: app_colors.backgroundColor,
         appBar: AppBar(
             backgroundColor: app_colors.darkBackgroundColor,
             title: const AppBarText(MyApp.appTitle)),
