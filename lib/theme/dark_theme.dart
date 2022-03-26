@@ -14,7 +14,8 @@ class DarkTheme {
 
   ThemeData theme() => ThemeData(
       brightness: Brightness.dark,
-      primaryColor: Colors.red,
+      primaryColor: app_colors.accentColor,
+      primarySwatch: app_colors.primarySwatchMaterial,
       scaffoldBackgroundColor: app_colors.backgroundColor,
       textTheme: const TextTheme(), // todo - prepare own TextTheme
       fontFamily: 'Lato',
