@@ -1,5 +1,5 @@
-import 'package:receipt_manager/components/validators/validateable.dart';
 import 'package:collection/collection.dart';
+import 'package:receipt_manager/validators/validateable.dart';
 
 class ValidationChain {
   final List<Validateable> validations;

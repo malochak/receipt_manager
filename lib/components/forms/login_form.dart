@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:receipt_manager/components/app_button.dart';
-import 'package:receipt_manager/components/validators/validation_chain.dart';
-import 'package:receipt_manager/components/validators/validations.dart';
+import 'package:receipt_manager/validators/validation_chain.dart';
+import 'package:receipt_manager/validators/validations.dart';
 
 import '../../constants/app_colors.dart' as app_colors;
 

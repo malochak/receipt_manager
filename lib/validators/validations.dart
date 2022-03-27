@@ -1,6 +1,6 @@
-import 'package:receipt_manager/components/validators/FieldValidation.dart';
-import 'package:receipt_manager/components/validators/validateable.dart';
 import 'package:receipt_manager/utilities/string_extension.dart';
+import 'package:receipt_manager/validators/FieldValidation.dart';
+import 'package:receipt_manager/validators/validateable.dart';
 
 class NotEmptyValidation extends FieldValidation implements Validateable {
   @override
