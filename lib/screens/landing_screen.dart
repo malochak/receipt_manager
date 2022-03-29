@@ -2,9 +2,10 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:receipt_manager/screens/login_screen.dart';
+import 'package:receipt_manager/screens/registration_screen.dart';
 
-import '../components/app_button.dart';
 import '../components/app_bar_text.dart';
+import '../components/app_button.dart';
 import '../constants/app_colors.dart' as app_colors;
 import '../main.dart';
 
@@ -39,6 +40,8 @@ class LandingScreen extends StatelessWidget {
                     const SizedBox(height: 30),
                     AppButton('Rejestracja', () {
                       print('Registration');
+                      Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const RegistrationScreen()));
                     }),
                     Container(
                       margin: const EdgeInsets.symmetric(
