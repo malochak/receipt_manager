@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:receipt_manager/components/app_button.dart';
+import 'package:receipt_manager/screens/receipts_screen.dart';
 import 'package:receipt_manager/validators/validation_chain.dart';
 import 'package:receipt_manager/validators/validations.dart';
 
@@ -62,6 +63,9 @@ class _LoginFormState extends State<LoginForm> {
                   } else {
                     print('Login action - form INVALID');
                   }
+
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const ReceiptsScreen()));
                 }),
               )
             ],

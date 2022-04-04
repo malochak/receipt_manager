@@ -13,7 +13,7 @@ class RegistrationScreen extends StatelessWidget {
       backgroundColor: app_colors.backgroundColor,
       appBar: AppBar(
           backgroundColor: app_colors.darkBackgroundColor,
-          title: const AppBarText('Rejestracja')),
+          title: AppBarText('Rejestracja')),
       body: const Center(child: RegistrationForm()),
     );
   }

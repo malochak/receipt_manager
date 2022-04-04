@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1007433437804",
+    "project_id": "receipt-manager-253f0",
+    "storage_bucket": "receipt-manager-253f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007433437804:android:e98e49b1822c7461f27e49",
+        "android_client_info": {
+          "package_name": "com.example.receipt_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007433437804-b4g2bq70sabbr1h3h5306a5u8hmbr8ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEI6avLBjw8thcMo8K0J9Bkta0VwWuTHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007433437804-b4g2bq70sabbr1h3h5306a5u8hmbr8ck.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007433437804-628fpl1k4lqmbdacmlgd3j15n06mmice.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mkdev.receiptManager"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

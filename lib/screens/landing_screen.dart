@@ -17,7 +17,7 @@ class LandingScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
             backgroundColor: app_colors.darkBackgroundColor,
-            title: const AppBarText(MyApp.appTitle)),
+            title: AppBarText(MyApp.appTitle, font: 'Pacifico')),
         body: SafeArea(
           child: Center(
             child: Container(

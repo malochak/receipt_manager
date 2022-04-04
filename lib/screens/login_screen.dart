@@ -13,7 +13,7 @@ class LoginScreen extends StatelessWidget {
       backgroundColor: app_colors.backgroundColor,
       appBar: AppBar(
           backgroundColor: app_colors.darkBackgroundColor,
-          title: const AppBarText('Logowanie')),
+          title: AppBarText('Logowanie')),
       body: const Center(child: LoginForm()),
     );
   }

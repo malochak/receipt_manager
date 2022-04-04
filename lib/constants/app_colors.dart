@@ -11,6 +11,7 @@ const primarySwatch = Color.fromRGBO(115, 161, 248, 1.0);
 final primarySwatchMaterial = MatColorGenerator.generateMaterialColor(primarySwatch);
 
 // input forms
+// todo : apply suggestions from Dart Analysis
 const border = accentColor;
 const border_focused = primarySwatch;
 const border_error = Color.fromRGBO(180, 17, 67, 1.0);
